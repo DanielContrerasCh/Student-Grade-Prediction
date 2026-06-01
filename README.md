@@ -61,12 +61,4 @@ The idea is to combine three complementary stages:
 
 Because the original paper focuses on regression, the notebook adapts the output layer and training objective for multi-class classification. The classification version uses softmax activation and categorical cross-entropy.
 
-# Results and Interpretation
-
-The notebook is structured to report the following outputs for the hybrid model:
-
-- Accuracy, precision, recall, F1-score, and AUC-ROC
-- A detailed classification report
-- A confusion matrix for class-level error analysis
-
 From the exploratory results already documented in the notebook, the main interpretation is that class imbalance is one of the biggest challenges in the dataset. The hybrid model is included to test whether a deeper non-linear architecture can improve on the baseline and handle the minority classes more effectively.
